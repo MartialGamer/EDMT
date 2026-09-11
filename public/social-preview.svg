@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">EDMT Elite Dangerous Mining Tracker</title>
+  <desc id="desc">Record and share Elite Dangerous surface mining sites.</desc>
+  <rect width="1200" height="630" fill="#0d1111"/>
+  <circle cx="935" cy="280" r="215" fill="#141a19" stroke="#2c3531" stroke-width="2"/>
+  <ellipse cx="935" cy="280" rx="285" ry="84" fill="none" stroke="#536f61" stroke-width="3" transform="rotate(-25 935 280)"/>
+  <path d="M680 375h510" stroke="#e97c3d" stroke-width="3" transform="rotate(-25 935 280)"/>
+  <circle cx="935" cy="280" r="55" fill="#e97c3d" opacity=".16"/>
+  <circle cx="935" cy="280" r="20" fill="#e97c3d"/>
+  <circle cx="935" cy="280" r="11" fill="#f2a06a"/>
+  <path d="M82 102h72" stroke="#e97c3d" stroke-width="5"/>
+  <text x="82" y="205" fill="#e8e4dc" font-family="Arial, sans-serif" font-size="94" font-weight="700" letter-spacing="12">EDMT</text>
+  <text x="88" y="267" fill="#e97c3d" font-family="monospace" font-size="22" letter-spacing="5">ELITE DANGEROUS</text>
+  <text x="88" y="315" fill="#8b9590" font-family="Arial, sans-serif" font-size="28">Surface mining site tracker</text>
+  <path d="M88 478h315" stroke="#2c3531" stroke-width="2"/>
+  <text x="88" y="525" fill="#77bc8b" font-family="monospace" font-size="17" letter-spacing="3">LOG  /  FILTER  /  SHARE</text>
+</svg>
