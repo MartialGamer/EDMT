@@ -154,9 +154,7 @@ async function downloadJson(name: string, records: Site[]) {
   );
   const savePicker = (
     window as Window & {
-      showSaveFilePicker?: (
-        options: unknown,
-      ) => Promise<{
+      showSaveFilePicker?: (options: unknown) => Promise<{
         createWritable: () => Promise<{
           write: (data: Blob) => Promise<void>;
           close: () => Promise<void>;
@@ -274,7 +272,8 @@ function bindEvents() {
     ?.addEventListener("click", () => downloadJson("edmt-sites.json", sites));
   document.querySelector("#clear-all")?.addEventListener("click", () => {
     if (!sites.length) return;
-    if (!confirm("Clear all recorded mining sites? This cannot be undone.")) return;
+    if (!confirm("Clear all recorded mining sites? This cannot be undone."))
+      return;
     sites = [];
     persist();
     render();
